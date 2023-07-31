@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: violet;
+    justify-content: center;
+    display: flex;
+    height: 55px;
+    padding-top: 10px;
+}
+
+
+/* ----------- Arranca contenedorn1 ----------- */
+.contenedorn1 {
+    display: flex;
+    flex-direction: row; /* row-reverse, column, column-reverse */
+    /* flex-wrap: wrap; */
+    font-weight: bolder;
+    color: #fff;
+    justify-content: center;
+}
+
+.elemento1 {
+    background-color: #022749;
+    width: 50px;
+    height: 60px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 40px;
+}
+.elemento2 {
+    background-color: hsl(209, 94%, 21%);
+    width: 50px;
+    height: 60px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 40px;
+}
+.elemento3 {
+    background-color: hsl(209, 96%, 22%);
+    width: 50px;
+    height: 60px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 40px;
+}
+.elemento4 {
+    background-color: hsl(209, 95%, 29%);
+    width: 50px;
+    height: 60px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 40px;
+}
+.elemento5 {
+    background-color: hsl(209, 98%, 33%);
+    width: 50px;
+    height: 60px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 40px;
+}
+.elemento6 {
+    background-color: hsl(209, 98%, 36%);
+    width: 50px;
+    height: 60px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 40px;
+}
+.elemento7 {
+    background-color: hsl(209, 96%, 44%);
+    width: 50px;
+    height: 60px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 40px;
+}
+
+    /* ------------- Termina contenedorn1 ------------- */
+
+/* ------------- Arranca contenedorn2 ------------- */
+.contenedorn2 {
+    margin: 5px 0 5px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    margin: 0px 0 0 15px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+p {
+    margin: 10px 0 2px 0;
+    padding: 2px 0 2px 50px;
+    font-weight: bolder;
+    font-size: 16px;
+
+}
+
+section {
+    background-color: lightblue;
+    border: 2px solid #18e;
+    margin-bottom: 5px;
+    margin: 0 2px 0 2px;
+    min-height: 100%;
+}
+
+    /* ---------------- Termina contenedorn2 ---------------- */
+
+/* ---------------- Arranca contenedorn3 ---------------- */ 
+
+.contenedorn3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: aquamarine;
+}
+
+ /* ---------- Arranca edicion para medidas particulares ---------- */
+ 
+@media only screen and (min-width:320px) and (max-width:578px) {
+    .contenedorn3 {
+        width: 100%;
+        padding-left: 23px;
+        flex-direction: column-reverse;
+    }
+    .cajas {
+        width: 100%;
+    }
+}
