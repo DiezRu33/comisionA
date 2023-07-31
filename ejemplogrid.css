@@ -1,0 +1,39 @@
+*{
+    margin: 5px;
+    padding: 0;
+    
+}
+.contenedor {
+    /* grid-auto-rows: 100px; */
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    border: 2px solid #888;
+}
+
+.miHeader { 
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    /* grid-row-end: 3; */
+    font-size: 30px;
+    display: flex;
+}
+
+main {
+    grid-column: 2;
+    grid-row: 2;
+
+}
+
+aside {
+    grid-column: 1;
+    grid-row: 2;
+    border-right: 2px solid #555;
+    padding-top: 200px;
+}
+
+footer {
+    grid-column:1;
+    grid-row:3;
+    grid-column-end: 3;
+}
